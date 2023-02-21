@@ -1,0 +1,6 @@
+[submodule "attestation-agent"]
+	path = attestation-agent
+	url = https://github.com/confidential-containers/attestation-agent
+[submodule "kbs"]
+	path = kbs
+	url = https://github.com/confidential-containers/kbs

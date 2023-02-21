@@ -1,0 +1,13 @@
+{
+    "default": [{"type": "reject"}], 
+    "transports": {
+        "docker": {
+            "docker.io/xinjian1326/ubuntu": [
+                {
+                    "type": "sigstoreSigned",
+                    "keyPath": "/run/image-security/cosign/cosign.pub"
+                }
+            ]
+        }
+    }
+}
